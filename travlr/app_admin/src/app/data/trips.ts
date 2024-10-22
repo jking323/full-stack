@@ -1,7 +1,8 @@
-[
+export const trips = [
   {
     "code": "GALR210214",
     "name": "Gale Reef",
+    "perPerson": 799.00,
     "length": "4 nights / 5 days",
     "start": "2021-02-14B08:00:00Z",
     "resort": "Emerald Bay, 3 stars",
@@ -11,6 +12,7 @@
   {
     "code": "DAWR210315",
     "name": "Dawson's Reef",
+    "perPerson": 1199.00,
     "length": "4 nights / 5 days",
     "start": "2021-03-15B08:00:00Z",
     "resort": "Blue Lagoon, 4 stars",
@@ -20,6 +22,7 @@
   {
     "code": "CLAR210621",
     "name": "Claire's REEF",
+    "perPerson": 1999.00,
     "length": "4 nights / 5 days",
     "start": "2021-06-21B08:00:00Z",
     "resort": "Coral Sands, 5 stars",
