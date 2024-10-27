@@ -9,5 +9,8 @@
       {{ trip.length }} only {{ trip.perPerson | currency:'USD' }} per person
     </p>
     <div class="card-text" [innerHTML]="trip.description"></div>
+    <div>
+      <button (click)="editTrip(trip)" class="btn btn-info">Edit Trip</button>
+    </div>
   </div>
 </div>
